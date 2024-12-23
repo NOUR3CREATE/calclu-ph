@@ -1,0 +1,33 @@
+/* الوضع الداكن */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333333;
+  }
+  
+  .output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }

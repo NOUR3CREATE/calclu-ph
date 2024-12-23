@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حاسبة تقسيط الهاتف</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>حاسبة تقسيط الهاتف</h1>
+  <label for="phonePrice">سعر الهاتف (بالدولار):</label>
+  <input type="number" id="phonePrice" placeholder="أدخل سعر الهاتف">
+
+  <label for="years">عدد سنوات السداد:</label>
+  <input type="number" id="years" placeholder="أدخل عدد السنوات">
+
+  <button onclick="calculateInstallments()">احسب</button>
+
+  <div class="output" id="output">
+    <p>إجمالي الفائدة: -</p>
+    <p>المبلغ الإجمالي: -</p>
+  </div>
+
+  <script src="indx.js"></script>
+</body>
+</html>
